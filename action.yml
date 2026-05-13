@@ -63,4 +63,4 @@ outputs:
     description: "Url of the application"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: 'docker://ghcr.io/step-security/static-web-apps-deploy:v1.0.0@sha256:63c483b12a2b20a8bd9c414ca0a1ef3288026a0e5c96fb31c2b924ad1d4a0024' #v1.0.0
