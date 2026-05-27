@@ -1,3 +1,3 @@
-FROM mcr.microsoft.com/appsvc/staticappsclient:stable@sha256:51fe406435889083d913524cb93f01868dccacf9deb458e5be0c31e6ff3fc392
+FROM mcr.microsoft.com/appsvc/staticappsclient:stable@sha256:8ed8ea489d04d0636b5c47fbaa44f005975ab0d1f03eddc28014cdf7a061f7f4
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
