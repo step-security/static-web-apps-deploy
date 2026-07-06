@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/static-web-apps-deploy",
+   "upstream_full_repo_name": "azure/static-web-apps-deploy",
+   "action_type": "docker",
+   "last_release": {
+     "tag_name": "v1.0.0",
+     "created_at": "2026-05-13T09:49:34Z",
+     "published_at": "2026-05-14T01:31:18Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
